@@ -86,6 +86,8 @@ celerybeat-schedule
 .env
 
 # virtualenv
+bin/
+include/
 venv/
 ENV/
 
