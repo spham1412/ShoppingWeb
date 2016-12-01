@@ -1,1 +1,8 @@
 Django==1.10.3
+django-allauth==0.29.0
+django-crispy-forms==1.6.1
+oauthlib==2.0.1
+python-openid==2.2.5
+requests==2.12.2
+requests-oauthlib==0.7.0
+stripe==1.43.0
