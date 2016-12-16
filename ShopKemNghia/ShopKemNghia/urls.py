@@ -21,6 +21,8 @@ from django.conf.urls import url, include
 from contact import views as contact_views
 from profiles import views as profiles_views
 from checkout import views as checkout_views
+from products import views as products_views
+from cart import views as cart_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -30,6 +32,10 @@ urlpatterns = [
     url(r'^checkout/$', checkout_views.checkout, name='checkout'),
     url(r'^contact/$', contact_views.contact, name='contact'),
     url(r'^accounts/', include('allauth.urls')),
+    url(r'^products/$', products_views.products, name='products'),
+    url(r'^cart/$', cart_views.cart, name='cart'),
+    # url(r'^social/', include('social.apps.django_app.urls', namespace='social')),
+    # url(r'^auth/', include('django.contrib.auth.urls', namespace='auth')),
 ]
 
 if settings.DEBUG:

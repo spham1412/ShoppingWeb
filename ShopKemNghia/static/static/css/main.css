@@ -12,3 +12,12 @@
 .navbar-default .navbar-brand {
     color: blueviolet;
 }
+
+/*.body {*/
+    /*background-image: url("img/home.jpeg");*/
+/*}*/
+
+.logo {
+    font-family: Zapfino;
+    font-size: x-large;
+}
